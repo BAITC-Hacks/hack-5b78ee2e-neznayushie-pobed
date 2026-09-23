@@ -979,7 +979,7 @@ def main() -> None:
     else:
         st.info("Подтверждённых изменений подразделений нет.")
 
-    st.subheader("Таблица сопоставления")
+    st.subheader("Таблица сопоставления.")
     render_table(report)
 
     st.subheader("Итоговое заключение и рекомендации")
