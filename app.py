@@ -1000,7 +1000,7 @@ def main() -> None:
         with export_right:
             st.download_button("Выгрузить Excel", data=export_excel(frame, report), file_name="audit_report.xlsx", mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
     elif ready:
-        st.info("Таблица не содержит подтверждённых строк; выгрузка пустого Excel недоступна.")
+        st.info("Таблица не содержит подтверждённых строк, выгрузка пустого Excel недоступна.")
 
     render_sources(report, docs_by_name)
 
