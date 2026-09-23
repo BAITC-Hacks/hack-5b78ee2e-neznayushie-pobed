@@ -1,0 +1,8 @@
+streamlit>=1.42,<2
+openai>=1.66,<3
+python-docx>=1.2,<2
+pypdf>=6,<7
+pandas>=2.2,<3
+openpyxl>=3.1,<4
+xlrd>=2,<3
+tiktoken>=0.9,<1
